@@ -1,0 +1,64 @@
+.relative {
+  position: relative;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #4A90E2, #002B5C);
+  
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* Adjust this value if needed */
+}
+
+.h1 {
+  font-size: 3rem; /* Adjust font size as needed */
+}
+.circle-bullet {
+  display: inline-block;
+  width: 30px;  /* Adjust size */
+  height: 30px; /* Adjust size */
+  background-color: lightblue; /* Light color */
+  border-radius: 50%; /* Make it circular */
+  color: white; /* Text color inside the circle */
+  text-align: center; /* Center the text */
+  line-height: 30px; /* Center the text vertically */
+  font-weight: bold; /* Optional: make text bold */
+  margin-right: 8px; /* Space between bullet and text */
+  font-size: 14px; /* Adjust font size */
+}
+.stat-box {
+  position: relative;
+  max-width: 300px; 
+  background-color: #f7fafc; 
+  border-radius: 0.5rem; /* Matches Tailwind's rounded-lg */
+  padding: 1.5rem; /* Tailwind's p-6 */
+  margin: 1rem; /* Tailwind's m-4 */
+}
+
+.stat-box::before {
+  content: '';
+  position: absolute;
+  top: -4px; /* Adjust based on your design */
+  left: -4px; /* Adjust based on your design */
+  right: -4px; /* Adjust based on your design */
+  bottom: -4px; /* Adjust based on your design */
+  background: linear-gradient(to right, #4A90E2, #002B5C); /* Gradient border colors */
+  z-index: -1; /* Behind the content */
+  border-radius: 0.5rem; /* Matches the border radius of the box */
+}
