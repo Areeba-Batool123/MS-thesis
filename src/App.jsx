@@ -1,20 +1,22 @@
 // src/App.jsx
 import React from 'react';
-import Navbar from './Home/Navbar.jsx';
-import Herosection from './Home/Herosection.jsx';
-import Bodyb from './Home/Bodyb.jsx';
-import Features from './Home/Features.jsx';
-import Footer from './Home/Footer.jsx';
+// import Navbar from './HomePage/Navbar.jsx';
+// import Herosection from './HomePage/Herosection.jsx';
+// import Bodyb from './HomePage/Bodyb.jsx';
+// import Features from './HomePage/Features.jsx';
+// import Footer from './HomePage/Footer.jsx';
+import Login from './LoginPage/Login.jsx';
 // import Check from './components/Check.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Herosection />
       <Bodyb />
       <Features />
-      <Footer />
+      <Footer /> */}
+      <Login />
       {/* <Check /> */}
     </div>
   );
