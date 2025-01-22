@@ -3,7 +3,7 @@ import Nedlogo from './Nedlogo.jsx';
 
 function Navbar() {
   return (
-    <nav className="mx-auto p-4 fixed top-0 left-0 w-full bg-white shadow">
+    <nav className="mx-auto p-4 fixed top-0 left-0 w-full bg-white shadow ">
       <div className="container mx-auto flex items-center justify-between">
         <Nedlogo />
         <div className="hidden md:flex space-x-8">

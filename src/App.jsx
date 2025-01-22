@@ -10,12 +10,12 @@ import Registration from './RegistrationPage/Registration.jsx';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Herosection />
       <Bodyb />
       <Features />
-      <Footer />
-      <Login />
+      <Footer /> */}
+      {/* <Login /> */}
       
       <Registration />
       

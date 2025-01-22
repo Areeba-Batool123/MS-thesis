@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
+import Footer from './Footer.jsx';
 import './Login.css'; // Import your custom CSS file
 
 function Login() {
@@ -105,6 +106,7 @@ function Login() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
