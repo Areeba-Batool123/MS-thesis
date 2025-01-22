@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
 import './Login.css'; // Import your custom CSS file
-// import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css';
-// import 'https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css';
 
 function Login() {
   return (
     <>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+
     <Navbar />
       <section>
         <div className="container">
@@ -41,7 +41,7 @@ function Login() {
                               placeholder="Your Email"
                               autoComplete="off"
                             />
-                            {/* <i className="input-icon material-icons">alternate_email</i> */}
+                            <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                           </div>
                           <div className="form-group">
                             <input
@@ -50,7 +50,7 @@ function Login() {
                               placeholder="Your Password"
                               autoComplete="off"
                             />
-                            {/* <i className="input-icon material-icons">lock</i> */}
+                            <i class="fa fa-unlock-alt fa-2x" aria-hidden="true"></i>
                           </div>
                           <a href="#" className="btns">
                             Submit
@@ -72,7 +72,7 @@ function Login() {
                               placeholder="Your Name"
                               autoComplete="off"
                             />
-                            {/* <i className="input-icon material-icons">perm_identity</i> */}
+                           <i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
                           </div>
                           <div className="form-group">
                             <input
@@ -81,7 +81,7 @@ function Login() {
                               placeholder="Your Email"
                               autoComplete="off"
                             />
-                            {/* <i className="input-icon material-icons">alternate_email</i> */}
+                            <i class="fa fa-envelope-o fa-2x " aria-hidden="true"></i>
                           </div>
                           <div className="form-group">
                             <input
@@ -90,7 +90,7 @@ function Login() {
                               placeholder="Your Password"
                               autoComplete="off"
                             />
-                            {/* <i className="input-icon material-icons">lock</i> */}
+                           <i class="fa fa-unlock-alt fa-2x" aria-hidden="true"></i>
                           </div>
                           <a href="#" className="btns">
                             Submit

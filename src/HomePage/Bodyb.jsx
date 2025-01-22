@@ -13,23 +13,26 @@ function Body3sec() {
             <div  style={{ fontSize: '3rem', whiteSpace: 'nowrap' }}>to everyone's needs</div>
           </h1>
                     
-                    <p className="text-lg text-gray-500 mb-6 text-center"></p> {/* Subtitle */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full"> {/* Grid for features */}
-                        <div className="p-6 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out"> {/* Feature 1 */}
-                            <h3 className="text-xl font-semibold text-white mb-4 ">Research Scholar</h3> {/* Feature title */}
-                            <p className="text-gray-500">No more frustration - right from initial application, guide selection to DC invite, courses, publications, synopsis, and final thesis submission and viva, everything is automated.</p> {/* Feature description */}
-                        </div>
-                        <div className="p-6 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out"> {/* Feature 2 */}
-                            <h3 className="text-xl font-semibold text-white mb-4 ">Research Guide</h3> {/* Feature title */}
-                            <p className="text-gray-500">Constructs a bridge between scholars and guides with easy communication channels. Easy acceptance and approval of the coursework, with immediate review processes.</p> {/* Feature description */}
-                        </div>
-                        <div className="p-4 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out"> {/* Feature 3 */}
-                            <h3 className="text-xl font-semibold text-white mb-4 ">Research Committee Coordinator</h3> {/* Feature title */}
-                            <p className="text-gray-500">Keep track of the entire thesis process in a centralized place. Facilitates research interviews, coordination with external reviewers, and final approvals/rejection in just a click.</p> {/* Feature description */}
+          <p className="text-lg text-gray-500 mb-6 text-center"></p> {/* Subtitle */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full "> {/* Grid for features */}
+    <div className="p-6 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out group"> {/* Feature 1 */}
+        <h3 className="text-xl font-semibold text-white mb-4 group-hover:text-white">Research Scholar</h3> {/* Feature title */}
+        <p className="text-gray-500 group-hover:text-white">No more frustration - right from initial application, guide selection to DC invite, courses, publications, synopsis, and final thesis submission and viva, everything is automated.</p> {/* Feature description */}
+    </div>
+    <div className="p-6 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out group"> {/* Feature 2 */}
+        <h3 className="text-xl font-semibold text-white mb-4 group-hover:text-white">Research Guide</h3> {/* Feature title */}
+        <p className="text-gray-500 group-hover:text-white">Constructs a bridge between scholars and guides with easy communication channels. Easy acceptance and approval of the coursework, with immediate review processes.</p> {/* Feature description */}
+    </div>
+    <div className="p-4 bg-black rounded-2xl h-80 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 transition-transform duration-300 ease-in-out group"> {/* Feature 3 */}
+        <h3 className="text-xl font-semibold text-white mb-4 group-hover:text-white">Research Committee Coordinator</h3> {/* Feature title */}
+        <p className="text-gray-500 group-hover:text-white">Keep track of the entire thesis process in a centralized place. Facilitates research interviews, coordination with external reviewers, and final approvals/rejection in just a click.</p> {/* Feature description */}
+    </div>
+</div>
+
                         </div>
                     </div>
-                </div>
-            </div>
+                
+            
 {/* image part */}
 <h1
   className="pt-10 pb-10 relative max-w-full font-extrabold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#4A90E2] to-[#002B5C] my-1 mb-5 leading-snug"

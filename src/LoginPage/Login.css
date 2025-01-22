@@ -18,7 +18,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: normal;
-    background-color: var(white);
+    background: rgb(219, 216, 216);
 }
 
 a { text-decoration: none; }
@@ -240,6 +240,16 @@ input[type="checkbox"] { display: none; }
     .form-style:focus, .form-style:active { border: none; outline: none; box-shadow: var(--shadow); }
 
 
+    .fa-envelope-o,.fa-user-o,.fa-unlock-alt{
+        position: absolute;
+        top: 7px;
+        left: 10px;
+        height: 48px;
+        font-size: 24px;
+        text-align: left;
+        color: white;
+        transition: all .2s linear;
+    }
 
 /*MEDIA QUERIES*/
 
@@ -268,6 +278,7 @@ input[type="checkbox"] { display: none; }
     .left p { font-size: 14px; }
     .card-3d-wrap { width: 350px; }
 }
+
 
 @media (max-width: 768px) {
     .left, .right { flex: 0 0 100%; max-width: 100%; }
