@@ -28,7 +28,7 @@ ul { list-style: none; }
 .row { display: flex; flex-wrap: wrap; }
 .justify-content-between { justify-content: space-between; }
 .align-items-center { align-items: center; }
-.full-screen { min-height: 90vh; padding: 0px 0 0; }
+.full-screen { min-height: 40vh; padding: 0px 0 0; }
 .text-center { text-align: center; }
 
 

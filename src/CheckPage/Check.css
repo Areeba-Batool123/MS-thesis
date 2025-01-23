@@ -1,0 +1,32 @@
+body {
+    height: 200vh; /* Ensure there is enough scrollable height */
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimateImg {
+    position: relative;
+    transform: translateY(100px); /* Start off-screen */
+    opacity: 0; /* Start invisible */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transition properties */
+}
+
+.ultimateImg.show {
+    transform: translateY(0); /* Move to original position */
+    opacity: 1; /* Make visible */
+}
+
+.purpleBox {
+    background-color: purple;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.mainImg {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+}

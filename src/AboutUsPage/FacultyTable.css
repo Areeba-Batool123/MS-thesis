@@ -1,0 +1,40 @@
+body{
+    padding-left: 45px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    color: #0073e6;
+    padding-left: 45px;
+
+  }
+  
+  thead tr {
+    background-color:black;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  /* tbody tr:nth-child(even) {
+    background-color: #0b15ac;
+  } */
+  
+  tbody tr:hover {
+    background-color: #b6d8ff;
+    /* background: linear-gradient(to right, #4A90E2, #002B5C);; */
+  }
+  
+  th {
+    background-color: #98c2ec;
+    color: rgb(20, 8, 8);
+    font-weight: bold;
+    padding-left: 45px;
+  }
+  

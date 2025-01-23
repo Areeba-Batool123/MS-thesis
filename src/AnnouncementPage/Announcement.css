@@ -1,0 +1,37 @@
+
+body{
+    background: rgb(235, 231, 231);
+}
+.main{
+ margin-top: 10px;
+ margin-bottom: 70px;
+ margin-left: 70px;
+ text-align: left;
+  color: black;
+}
+
+#Announce{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    text-align: center;
+    
+}
+
+#web{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    max-width: 70%;
+}
+
+#black{
+    color: black;
+    font-size: 18px;
+}
+
+#blue{
+    color: #4A90E2;
+    font-size: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}

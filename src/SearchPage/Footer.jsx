@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import './Footer.css'; // Assuming you will have the CSS in a separate file.
 
 const Footer = () => {
-  // Function to scroll to the top when the button is clicked
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+  // // Function to scroll to the top when the button is clicked
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth',
+  //   });
+  // };
 
   return (
     <footer className="section footer">

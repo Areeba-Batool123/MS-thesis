@@ -196,7 +196,7 @@ function Registration() {
             </fieldset> */}
           </form>
           <div className="footer">
-            <button type="submit" className="btn">Sign Up</button>
+            <button type="submit" className="btn">Submit</button>
             <p>Thesis Management System</p>
           </div>
         </main>

@@ -3,7 +3,7 @@ import Nedlogo from './Nedlogo.jsx';
 
 function Navbar() {
   return (
-    <nav className="mx-auto p-4 fixed top-0 left-0 w-full bg-white shadow">
+    <nav className="mx-auto p-4 fixed top-0 left-0 w-full bg-white shadow ">
       <div className="container mx-auto flex items-center justify-between">
         <Nedlogo />
         <div className="hidden md:flex space-x-8">
@@ -12,7 +12,7 @@ function Navbar() {
             <span className="absolute left-0 -bottom-1 w-full h-1 bg-bluish scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
           </a>
           <a href="#" className="relative group text-xl font-semibold text-bluish">
-            Announcement
+          Announcement
             <span className="absolute left-0 -bottom-1 w-full h-1 bg-bluish scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
           </a>
           <a href="#" className="relative group text-xl font-semibold text-bluish">

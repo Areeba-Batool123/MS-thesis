@@ -25,9 +25,9 @@
     line-height: 1.2;
   }
   
-  .section-footer {
+  body {
     position: relative;
-
+    padding-top: 60px;
   }
   
   ul {
