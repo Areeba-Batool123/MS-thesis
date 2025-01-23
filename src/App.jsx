@@ -13,7 +13,7 @@ import Search  from './SearchPage/Search.jsx';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Herosection />
       <Bodyb />
       <Features />
@@ -21,7 +21,7 @@ function App() {
       <Login />
       <Registration />
       <About />
-      <Announcement />
+      <Announcement /> */}
       {/* <Check /> */}
      
       <Search />

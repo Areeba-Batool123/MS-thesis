@@ -108,6 +108,7 @@ function Search() {
             value={search}
             onChange={handleSearch}
             className="p-2 border rounded w-1/6"
+            
           />
           <input
             type="text"
@@ -131,7 +132,7 @@ function Search() {
             placeholder="Filter by Batch"
             value={filters.batch}
             onChange={handleFilterChange}
-            className="p-2 border rounded w-1/6"
+            className="p-2 border rounded w-1/6 "
           />
           <input
             type="text"
