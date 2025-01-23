@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './Home/Navbar.js';
 
-function Services() {
+function Announcement() {
   return (
-    <div className="Services">
+    <div className="Announcement">
       <Navbar />
       
     </div>
   );
 }
 
-export default Services;
+export default Announcement;

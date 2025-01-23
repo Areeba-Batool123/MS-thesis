@@ -8,7 +8,7 @@ function Navbar() {
         <Nedlogo />
         <div className="hidden md:flex space-x-8">
           <a href="#" className="relative group text-xl font-semibold text-bluish">
-            Services
+            Announcement
             <span className="absolute left-0 -bottom-1 w-full h-1 bg-bluish scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
           </a>
           <a href="#" className="relative group text-xl font-semibold text-bluish">
