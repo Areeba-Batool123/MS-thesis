@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
 import FacultyTable from './FacultyTable.jsx';
 import './About.css';
 import './AboutR.css';
@@ -8,7 +6,6 @@ function About() {
   return (
     <>
     <div className="About">
-    <Navbar />
     <div className="responsive-container-block bigContainer">
       <div className="responsive-container-block Container bottomContainer">
         <div className="ultimateImg">
@@ -60,8 +57,7 @@ function About() {
           </a>
         </div>
       </div>
-    </div>
-    <Footer />  
+    </div> 
     </div>
     </>
   );

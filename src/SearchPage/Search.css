@@ -66,17 +66,3 @@ table {
     -webkit-background-clip: text;
     font-size: 3rem;
   }
-  input {
-    border-width: 2px; /* Set border thickness */
-    border-color: black; /* Set a soft gray border color */
-    padding: 8px; /* Optional: Add more padding */
-    border-radius: 0.375rem; /* Rounded corners */
-  }
-  
-  input:focus {
-    outline: none;
-    border-color: black /* Set a different border color on focus */
-  }
- ::placeholder {
-    color: rgb(102, 102, 102);
-  }

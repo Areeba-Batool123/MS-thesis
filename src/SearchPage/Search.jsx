@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
 import "./Search.css";
-import Navbar from "./Navbar";
-import Footer from './Footer.jsx';
 
 function Search() {
   const [data, setData] = useState([]); // Full data from Excel
@@ -84,7 +82,6 @@ function Search() {
 
   return (
     <>
-      <Navbar />
 
       <div className="container mx-auto mt-10">
         {/* Search and Filter Inputs */}
@@ -108,7 +105,6 @@ function Search() {
             value={search}
             onChange={handleSearch}
             className="p-2 border rounded w-1/6"
-            
           />
           <input
             type="text"
@@ -132,7 +128,7 @@ function Search() {
             placeholder="Filter by Batch"
             value={filters.batch}
             onChange={handleFilterChange}
-            className="p-2 border rounded w-1/6 "
+            className="p-2 border rounded w-1/6"
           />
           <input
             type="text"
@@ -202,7 +198,7 @@ function Search() {
 </tbody>
         </table>
       </div>
-      <Footer />
+
     </>
   );
 }

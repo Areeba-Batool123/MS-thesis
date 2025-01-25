@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
 import "preline/preline";
 import './Announcement.css'; // Import your custom CSS file
 
@@ -8,10 +6,7 @@ import './Announcement.css'; // Import your custom CSS file
 function Announcement() {
   return (
     <>   
-      
-      <Navbar />
-
-      <div className="flex flex-col items-center" id='Announce'>
+     <div className="flex flex-col items-center" id='Announce'>
           <h1
             className=" max-w-full font-extrabold text-center pt-0 mx-auto text-transparent bg-clip-text ml-10 bg-gradient-to-r from-[#4A90E2] to-[#002B5C] my-1 mb-5 leading-snug"
             style={{ fontSize: '4rem', whiteSpace: 'nowrap' }} // Ensures the heading doesn't wrap
@@ -83,8 +78,6 @@ function Announcement() {
 <div class="group  flex gap-x-5"> 
 </div>
 </div>
-
-      <Footer />
       <script src="./node_modules/preline/dist/preline.js"></script>
       
     </>

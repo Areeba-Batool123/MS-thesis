@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
 import './Login.css'; // Import your custom CSS file
 
 function Login() {
@@ -8,7 +6,6 @@ function Login() {
     <>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
-    <Navbar />
       <section>
         <div className="container">
           <div className="row full-screen align-items-center">
@@ -106,7 +103,6 @@ function Login() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };
