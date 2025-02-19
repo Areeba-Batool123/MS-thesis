@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainLogin from './LoginPage/MainLogin.jsx';
 import MainHome from './HomePage/MainHome.jsx';
 import MainSearch from './SearchPage/MainSearch.jsx';
@@ -10,14 +11,25 @@ function App() {
   return (
     <div className="App">
       
-      {/* 
-       <Home />
+      
+       {/* <MainHome />
        <MainLogin />
        <MainSearch />
        <MainRegistration  />
        <MainAnnouncement />
-       */}
-       <MainAbout />
+       <MainAbout /> */}
+      
+       
+       <Router>
+      <Routes>
+        <Route path="/" element={<MainHome />} />
+        <Route path="/MainLogin" element={<MainLogin />} />
+        <Route path="/MainSearch" element={<MainSearch />} />
+        <Route path="/MainRegistration" element={<MainRegistration />} />
+        <Route path="/MainAnnouncement" element={<MainAnnouncement />} />
+        <Route path="/MainAbout" element={<MainAbout />} />
+      </Routes>
+    </Router>
         
       
     </div>

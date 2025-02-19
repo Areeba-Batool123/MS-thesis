@@ -1,7 +1,9 @@
 import React from 'react';
 import './Login.css'; // Import your custom CSS file
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
   return (
     <>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -14,9 +16,11 @@ function Login() {
               <h2  className="   text-gradient-to-r from-[#4A90E2] to-[#002B5C] my-1 mb-5 leading-snug">
               Thesis Management System <br /> 
               </h2>
-              <a href="#" className="btn">
+              <button 
+              onClick={() => navigate("/")}
+              className="btn">
                 Home
-              </a>
+              </button>
              
             </div>
             <div className="right">

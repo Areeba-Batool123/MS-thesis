@@ -2,7 +2,9 @@ import React from 'react';
 import FacultyTable from './FacultyTable.jsx';
 import './About.css';
 import './AboutR.css';
+import { useNavigate } from "react-router-dom";
 function About() {
+  const navigate = useNavigate();
   return (
     <>
     <div className="About">
@@ -52,9 +54,11 @@ function About() {
             of specialisation and research interest:
           </p>
           <FacultyTable />
-          <a className="explore" href="src\HomePage\Home.jsx">
+          <button
+           onClick={() => navigate("/")}
+          className="explore" >
             Home
-          </a>
+          </button>
         </div>
       </div>
     </div> 

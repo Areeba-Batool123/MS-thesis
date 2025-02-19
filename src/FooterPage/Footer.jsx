@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css'; // Assuming you will have the CSS in a separate file.
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   // Function to scroll to the top when the button is clicked
@@ -10,7 +11,7 @@ const Footer = () => {
       behavior: 'smooth',
     });
   };
-
+  const navigate = useNavigate();
   return (
     <footer className="section footer">
       {/* <div className="footer__header">
@@ -18,29 +19,29 @@ const Footer = () => {
         <img src="logo-removebg-preview.png" alt="Description" 
         style={{ width: '20%', height: '20%' }}
         />
-        </a>
+        </button>
         <ul className="social">
           <li className="social__item">
-            <a href="#" target="_blank" className="btn social">
+            <button target="_blank" className="btn social">
               <span className="icon twitter"></span>
-            </a>
+            </button>
           </li>
           <li className="social__item">
-            <a href="#" target="_blank" className="btn social">
+            <button target="_blank" className="btn social">
               <span className="icon youtube"></span>
-            </a>
+            </button>
           </li>
           <li className="social__item">
-            <a href="#" target="_blank" className="btn social">
+            <button target="_blank" className="btn social">
               <span className="icon telegram"></span>
-            </a>
+            </button>
           </li>
           <li className="social__item">
-            <a href="#" target="_blank" className="btn social">
+            <button target="_blank" className="btn social">
             <div class="icon-container">
     <i class="fa fa-search fa-3x" aria-hidden="true"></i>
   </div>
-            </a>
+            </button>
           </li>
         </ul>
         <button type="button" className="btn icon" onClick={scrollToTop}>
@@ -50,19 +51,29 @@ const Footer = () => {
 
       <ul className="footer__list">
         <li className="footer__item active">
-          <a href="#" className="footer__link">Home</a>
+          <button 
+          onClick={() => navigate("/")}
+          className="footer__link">Home</button>
         </li>
         <li className="footer__item">
-          <a href="#" className="footer__link">Announcement</a>
+          <button 
+           onClick={() => navigate("/MainAnnouncement")}
+          className="footer__link">Announcement</button>
         </li>
         <li className="footer__item">
-          <a href="#" className="footer__link">Registration</a>
+          <button 
+          onClick={() => navigate("/MainRegistration")}
+          className="footer__link">Registration</button>
         </li>
         <li className="footer__item">
-          <a href="#" className="footer__link">About US</a>
+          <button 
+          onClick={() => navigate("/MainAbout")}
+          className="footer__link">About US</button>
         </li>
         <li className="footer__item">
-          <a href="#" className="footer__link">Search</a>
+          <button 
+          onClick={() => navigate("/MainSearch")}
+          className="footer__link">Search</button>
         </li>
       </ul>
 
